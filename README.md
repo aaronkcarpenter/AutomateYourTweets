@@ -9,11 +9,15 @@
 
 ### Technologies Utilized
 ***
-- Python
+- Python 3.9
 - AWS ECR
+  - Repo: twitter_bot_dkr_container
 - AWS Lambda
+  - Function: create_tweet_automate_cntr
 - AWS EventBridge
+  - Rule: multiplePostsTwitterBot
 - AWS S3
+  - Bucket: twitter-bot-cloudformation
 - Docker Container
 - Google Sheets API
 - Twitter API
